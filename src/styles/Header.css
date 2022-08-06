@@ -1,5 +1,18 @@
+.lp-header {
+    width: 335px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 @media only screen and (max-width: 375px) {
-
+    .lp-header {
+        margin: 0px;
+        padding: 40px 20px;
+    }
+    .lp-header-img {
+        width: 150px;
+    }
 }
 
 @media only screen and (min-width: 376px) {

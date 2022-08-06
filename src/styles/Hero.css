@@ -1,7 +1,33 @@
-@media only screen and (max-width: 375px) {
-
+.lp-hero {
+    position: fixed;
+    background-image: url("../assets/mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.lp-hero-tag {
+    margin: 0px;
+    color: var(--white);
+    border: 2px solid var(--white);
 }
 
+@media only screen and (max-width: 375px) {
+    .lp-hero {
+        width: 100%;
+        height: 650px;
+    }
+    .lp-hero-tag {
+        display: flex;
+        align-items: center;
+        width: 270px;
+        height: 150px;
+        padding: 30px;
+        font-size: 36px;
+    }
+}
 @media only screen and (min-width: 376px) {
 
 }

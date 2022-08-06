@@ -1,5 +1,11 @@
+.lp-mobile-navbar-btn {
+    border: none;
+    background-color: transparent;
+}
 @media only screen and (max-width: 375px) {
-
+    .lp-mobile-navbar-btn-img {
+        width: 24px;
+    }
 }
 
 @media only screen and (min-width: 376px) {
