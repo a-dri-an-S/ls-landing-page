@@ -1,5 +1,32 @@
-@media only screen and (max-width: 375px) {
+.lp-intro-section {
+    display: flex;
+}
+.lp-intro-text {
+    font-family: 'Alata', sans-serif;
+    color: var(--very-dark-gray);
+}
 
+@media only screen and (max-width: 375px) {
+    .lp-intro-section {
+        text-align: center;
+        margin: 80px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lp-intro-image {
+        width: 320px;
+    }
+    .lp-intro-info {
+        width: 280px;
+    }
+    .lp-intro-title {
+        margin: 60px 0px 0px 0px;
+        font-size: 30px;
+    }
+    .lp-intro-text {
+        line-height: 24px;
+    }
 }
 
 @media only screen and (min-width: 376px) {
