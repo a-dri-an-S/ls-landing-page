@@ -1,7 +1,9 @@
 .lp-mobile-navbar-btn {
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
+
 @media only screen and (max-width: 375px) {
     .lp-mobile-navbar-btn-img {
         width: 24px;

@@ -1,6 +1,8 @@
 import Header from "./Header/Header";
 import Hero from "./Header/Hero";
 import IntroSection from "./Content/IntroSection";
+import CreationsSection from "./Content/CreationsSections";
+
 import "../styles/LandingPage.css";
 
 const LandingPage = () => {
@@ -9,6 +11,7 @@ const LandingPage = () => {
             <Header />
             <Hero />
             <IntroSection />
+            <CreationsSection />
         </main>
     );
 }
