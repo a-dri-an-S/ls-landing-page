@@ -2,6 +2,7 @@ import Header from "./Header/Header";
 import Hero from "./Header/Hero";
 import IntroSection from "./Content/IntroSection";
 import CreationsSection from "./Content/CreationsSections";
+import Footer from "./Footer/Footer";
 
 import "../styles/LandingPage.css";
 
@@ -12,6 +13,7 @@ const LandingPage = () => {
             <Hero />
             <IntroSection />
             <CreationsSection />
+            <Footer />
         </main>
     );
 }

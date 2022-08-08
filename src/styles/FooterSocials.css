@@ -1,5 +1,16 @@
+.lp-footer-socials{
+    display: flex;
+    flex-direction: row;
+}
 @media only screen and (max-width: 375px) {
-
+    .lp-footer-socials {
+        margin: 20px 0px 0px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .lp-footer-socials-icon {
+        margin: 0px 8px;
+    }
 }
 
 @media only screen and (min-width: 376px) {
