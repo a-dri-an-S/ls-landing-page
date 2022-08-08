@@ -7,6 +7,9 @@ import Footer from "./Footer/Footer";
 import "../styles/LandingPage.css";
 
 const LandingPage = () => {
+
+    
+
     return (
         <main className="landing-page">
             <Header />

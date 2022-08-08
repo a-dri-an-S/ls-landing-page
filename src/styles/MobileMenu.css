@@ -1,14 +1,45 @@
-.lp-mobile-navbar-btn {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-
 @media only screen and (max-width: 375px) {
+    .lp-mobile-navbar-btn {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        margin: 40px 20px 0px 0px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        z-index: 2;
+        width: 32px;
+        height: 32px;
+    }
+    .lp-mobile-btn-active {
+        z-index: 2;
+    }
     .lp-mobile-navbar-btn-img {
         width: 24px;
     }
+    .lp-mobile-nav-menu {
+        z-index: 1;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 375px;
+        height: 3154px;
+        background-color: var(--black);
+    }
+    .lp-mobile-nav-menu-list {
+        margin: 200px 0px 0px 30px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .lp-mobile-nav-menu-link {
+        margin: 16px 0px;
+        color: var(--white);
+        text-decoration: none;
+        font-size: 26px;
+    }
 }
+
 
 @media only screen and (min-width: 376px) {
 
